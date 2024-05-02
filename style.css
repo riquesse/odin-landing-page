@@ -1,0 +1,82 @@
+body {
+    font-family: "Roboto";
+    margin: 0;
+}
+
+.first-section {
+    background-color: #1F2937;
+    padding: 20px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-links, .text-container p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-links {
+    display: flex;
+    gap: 22px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.container > * {
+    flex: 1;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.text-container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.text-container p {
+    margin: 0;
+}
+
+.text-container button {
+    border-radius: 8px;
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    margin-top: 8px;
+}
+
+.image {
+    background-color: grey;
+    color: white;
+    
+    /* centra il contenuto del div .image */
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+
+
+
